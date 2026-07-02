@@ -1,0 +1,39 @@
+plantuml
+@startuml
+left to right direction
+actor "مدیر تولید" as PM
+actor "مدیر فروش" as SM
+actor "فراهم‌کننده" as Sup
+‌
+rectangle "سیستم مدیریت خط تولید کارخانه" {
+usecase "تعریف انبار جدید" as UC1
+usecase "ثبت ورود/خروج کالا" as UC2
+usecase "مشاهده گزارش موجودی" as UC3
+usecase "تعریف محصول جدید" as UC4
+usecase "تعریف ماده اولیه جدید" as UC5
+usecase "تعریف BOM (مواد اولیه مورد نیاز)" as UC6
+usecase "تعریف خط تولید" as UC7
+usecase "تخصیص محصول به خط تولید" as UC8
+usecase "تعریف فراهم‌کننده" as UC9
+usecase "ثبت سفارش مواد اولیه" as UC10
+usecase "ثبت فاکتور فروش" as UC11
+usecase "پیش‌بینی فروش" as UC12
+usecase "مشاهده گزارش فروش" as UC13
+usecase "تایید سفارش" as UC14
+‌
+PM --> UC1
+PM --> UC2
+PM --> UC3
+PM --> UC4
+PM --> UC5
+PM --> UC6
+PM --> UC7
+PM --> UC8
+PM --> UC9
+PM --> UC10
+SM --> UC11
+SM --> UC12
+SM --> UC13
+Sup --> UC14
+}
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+title Raw Material Order
+
+actor ProductionManager
+participant ManagementSystem
+participant Warehouse
+participant Supplier
+
+ProductionManager -> ManagementSystem : Check inventory
+
+ManagementSystem -> Warehouse : Get material stock
+Warehouse --> ManagementSystem : Stock quantity
+
+ManagementSystem --> ProductionManager : Material shortage
+
+ProductionManager -> ManagementSystem : Create purchase order
+
+ManagementSystem -> Supplier : Send purchase order
+Supplier --> ManagementSystem : Confirm order
+
+ManagementSystem --> ProductionManager : Order registered
+
+@enduml

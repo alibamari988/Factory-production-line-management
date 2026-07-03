@@ -1,10 +1,7 @@
 # 🏭 Factory-production-line-management
 🏭 سیستم مدیریت خط تولید کارخانه (Factory Production Management System)
 
-<div align="center">"GitHub" (https://img.shields.io/badge/Project-Software%20Engineering-blue?style=for-the-badge)
-"UML" (https://img.shields.io/badge/UML-PlantUML-green?style=for-the-badge)
-"Status" (https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-"License" (https://img.shields.io/badge/License-Educational-orange?style=for-the-badge)
+
 
 📚 پروژه درس مهندسی نرم‌افزار
 
@@ -230,30 +227,6 @@ Sales
 
 ---
 
-📂 ساختار پروژه
-
-Factory-Production-Management/
-
-│
-├── README.md
-│
-├── Diagrams
-│   ├── UseCase.puml
-│   ├── ClassDiagram.puml
-│   ├── Sequence_Order.puml
-│   ├── Sequence_Sales.puml
-│   └── Sequence_Production.puml
-│
-├── Images
-│   ├── UseCase.png
-│   ├── ClassDiagram.png
-│   ├── Sequence1.png
-│   ├── Sequence2.png
-│   └── Sequence3.png
-│
-└── Report.pdf
-
----
 
 🛠 ابزارهای استفاده‌شده
 
@@ -310,40 +283,6 @@ GitHub| میزبانی پروژه
 - IntelliJ IDEA
 - Eclipse
 - PlantText
-
----
-
-📸 پیش‌نمایش نمودارها
-
-در صورت قرار دادن تصاویر در پوشه "Images" می‌توانید آن‌ها را به صورت زیر نمایش دهید:
-
-## Use Case Diagram
-
-![UseCase](Images/UseCase.png)
-
----
-
-## Class Diagram
-
-![ClassDiagram](Images/ClassDiagram.png)
-
----
-
-## Sequence Diagram 1
-
-![Sequence1](Images/Sequence1.png)
-
----
-
-## Sequence Diagram 2
-
-![Sequence2](Images/Sequence2.png)
-
----
-
-## Sequence Diagram 3
-
-![Sequence3](Images/Sequence3.png)
 
 ---
 

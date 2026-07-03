@@ -1,0 +1,19 @@
+@startuml
+title Production Planning
+
+actor ProductionManager
+participant ManagementSystem
+participant Warehouse
+participant ProductionLine
+
+ProductionManager -> ManagementSystem : Select product
+
+ManagementSystem -> Warehouse : Check raw materials
+Warehouse --> ManagementSystem : Materials available
+
+ManagementSystem -> ProductionLine : Assign production job
+ProductionLine --> ManagementSystem : Production started
+
+ManagementSystem --> ProductionManager : Production plan saved
+
+@enduml

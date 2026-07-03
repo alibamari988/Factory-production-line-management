@@ -1,0 +1,18 @@
+@startuml
+title Product Sale
+
+actor SalesOperator
+participant SalesSystem
+participant Warehouse
+
+SalesOperator -> SalesSystem : Register sale
+
+SalesSystem -> Warehouse : Check product stock
+Warehouse --> SalesSystem : Stock available
+
+SalesSystem -> Warehouse : Reduce inventory
+Warehouse --> SalesSystem : Inventory updated
+
+SalesSystem --> SalesOperator : Print invoice
+
+@enduml
